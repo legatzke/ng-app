@@ -1,0 +1,43 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.honda.lde",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "6.7.1",
+    "applicationType": "monolith",
+    "baseName": "packaging",
+    "packageName": "com.honda.lde",
+    "packageFolder": "com/honda/lde",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": true,
+    "jwtSecretKey": "NWFlYzhiNWQwYjE1MmQwODQwYzQ0ZDk4NzRjN2IzOTM0NjRmM2M0NWE4ODVjN2Q4OTk2NmMxYzQ1OWRhMGEyZTM1YWQ3YjE0NWQ5NjZiZWMzMDI3MzQ5ZGQ3ZDA0NjA3ZDFmMDM0ZTkzNDY2ODIwODJjOWVjOGVmNzI3ZWRmNjE=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "angularX",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "creationTimestamp": 1582308507221,
+    "testFrameworks": ["cucumber"],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": ["en", "ja", "es"],
+    "blueprints": []
+  }
+}

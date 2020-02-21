@@ -1,0 +1,11 @@
+version: '2'
+services:
+  packaging-postgresql:
+    image: postgres:12.1
+    # volumes:
+    #     - ~/volumes/jhipster/packaging/postgresql/:/var/lib/postgresql/data/
+    environment:
+      - POSTGRES_USER=packaging
+      - POSTGRES_PASSWORD=
+    ports:
+      - 5432:5432
